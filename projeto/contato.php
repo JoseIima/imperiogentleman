@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario | JF</title>
+    <title>Fale Conosco | IG</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +24,7 @@
         }
 
         fieldset {
-            border: 3px solid blue;
+            border: 3px ##b8860b;
         }
 
         legend {
@@ -76,17 +76,29 @@
 
         #submit {
             background: #ffd700;
-            width: 100%;
+            width: 10%;
             border: none;
-            padding: 15px;
+            padding: 5px 10px ;
             color: white;
             font-size: 15px;
             cursor: pointer;
-            border-radius: 10px
+            border-radius: 10px;
+            margin-top: 600px;
+            margin-left: 850px;
         }
 
         #submit:hover {
             background: #422600;
+        }
+
+        .text-area{
+            width: 100%;
+            
+
+        }
+
+        .legenda{
+           color: #ffd700;
         }
     </style>
 </head>
@@ -96,17 +108,13 @@
     <div class="box">
         <form action="formulario.php" method="post">
             <fieldset>
-                <legend><b>Formulário de Clientes</b></legend>
+                <legend><b>Fale Conosco</b></legend>
                 <br>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
                     <label for="nome" class="labelinput">Nome Completo</label>
                 </div>
                 <br>
-                <div class="inputBox">
-                    <input type="password" name="senha" id="senha" class="inputUser" required>
-                    <label for="senha" class="labelinput">Senha</label>
-                </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="email" id="email" class="inputUser" required>
@@ -114,32 +122,9 @@
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                    <label for="telefone" class="labelinput">Telefone</label>
+                    <legenda class="legenda">Mensagem</legenda><br><br>
+                    <textarea class="text-area" placeholder="Digite sua mensagem" name="mensagem" maxlength="150"required></textarea>
                 </div>
-                <p>Sexo:</p>
-                <input type="radio" id="feminino" name="genero" value="feminino" required>
-                <label for="feminino">Feminino</label>
-                <br>
-                <input type="radio" id="masculino" name="genero" value="masculino" required>
-                <label for="masculino">Masculino</label>
-                <br><br>
-                <label for="data_nascimento"><b>Data de Nascimento</b></label>
-                <input type="date" name="data_nascimento" id="data_nascimento" required>
-                <br><br><br>
-                <div class="inputBox">
-                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                    <label for="cidade" class="labelinput"><b>Cidade</b></label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" name="estado" id="estado" class="inputUser" required>
-                    <label for="estado" class="labelinput"><b>Estado</b></label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                    <label for="endereco" class="labelinput"><b>Endereço</b></label>
                 </div>
                 <br><br>
                 <input type="submit" name="submit" id="submit">

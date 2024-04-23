@@ -40,11 +40,11 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario | JF</title>
+    <title>Cadastro | IG</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right, #7db9e8, #5fa4d9);
+            background: linear-gradient(to right, #000000, #422600);
         }
 
         .box {
@@ -60,14 +60,14 @@ if (isset($_POST['submit'])) {
         }
 
         fieldset {
-            border: 3px solid blue
+            border: 3px solid #ffd700;
         }
 
         legend {
-            border: 1px solid blue;
+            border: 1px #ffd700;
             padding: 10px;
             text-align: center;
-            background-color: blue;
+            background-color: #ffd700;
             border-radius: 8px;
         }
 
@@ -98,7 +98,7 @@ if (isset($_POST['submit'])) {
         .inputUser:valid~.labelinput {
             top: -20px;
             font-size: 12px;
-            color: dodgerblue;
+            color: #ffd700;
 
         }
 
@@ -111,7 +111,7 @@ if (isset($_POST['submit'])) {
         }
 
         #submit {
-            background: blue;
+            background: #ffd700;
             width: 100%;
             border: none;
             padding: 15px;
@@ -122,7 +122,7 @@ if (isset($_POST['submit'])) {
         }
 
         #submit:hover {
-            background: #3299CC;
+            background: #422600;
         }
     </style>
 </head>
