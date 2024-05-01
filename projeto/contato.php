@@ -83,8 +83,8 @@
             font-size: 15px;
             cursor: pointer;
             border-radius: 10px;
-            margin-top: 600px;
-            margin-left: 850px;
+            margin-top: 500px;
+            margin-left: 680px;
         }
 
         #submit:hover {

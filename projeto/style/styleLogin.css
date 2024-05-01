@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #000000, #181600);
+    background: linear-gradient(to right, #000000, #422600);
 }
 
 div {
@@ -9,7 +9,7 @@ div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 80px;
+    padding: 60px;
     border-radius: 15px;
     color: #fff;
 }
@@ -22,7 +22,7 @@ input {
 }
 
 .inputSubmit {
-    background-color: blue;
+    background-color: #ffd700;
     border: none;
     padding: 15px;
     width: 100%;
@@ -33,12 +33,16 @@ input {
 }
 
 .inputSubmit:hover {
-    background-color: #3299CC;
+    background-color: #422600;
     cursor: pointer;
 }
 
-h1{
+h1 {
     color: cornsilk;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
+}
+
+fieldset {
+    border: 3px solid #ffd700;
 }

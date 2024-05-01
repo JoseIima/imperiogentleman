@@ -92,7 +92,7 @@
 </head>
 
 <body>
-    <a href="home4.php">Voltar</a>
+    <a href="../home4.php">Voltar</a>
     <div class="box">
         <form action="formulario.php" method="post">
             <fieldset>
